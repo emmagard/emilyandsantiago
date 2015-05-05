@@ -1,0 +1,147 @@
+html, body{
+  height: 100%;
+  margin: 0;
+  color: #333;
+  font-family: 'Cabin', sans-serif;
+}
+
+h1, h2, h3{
+  margin:0;
+  padding:0;
+}
+
+h1{
+  font-size: 6.854rem;
+}
+h2{
+  font-size: 4.236rem;
+}
+h3{
+  font-size: 2.618rem;
+}
+
+nav {
+  position: fixed;
+  z-index: 500;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+nav ul {
+  display: block;
+  padding-left: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 5px 25px;
+  font-weight: 700;
+}
+
+nav ul li a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  font-weight: 400;
+  -webit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+nav ul li a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+nav ul li a:focus {
+  color: white;
+}
+/***********************HOME***********************************/
+#home{
+  height: 100%;
+  width: 100%;
+  background:
+              url('es-65-2.jpg') no-repeat center center;
+  background-size: cover;
+  }#home hgroup{
+    color: #FF6666;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.8);
+    padding-top: 4%;
+    margin-left: 5%;
+  }#home h3{
+    margin-left: 34%;
+    margin-top: -3%;
+  }
+
+/***********************WELCOME***********************************/
+#welcome{
+  height: 65%;
+  width: 100%;
+  }#welcome h1{
+    margin-top: 5%;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+  }#welcome p{
+    font-size: 1.618rem;
+    margin: 1% 10% 2%;
+    text-align: center;
+  }
+
+.clear-fix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/***********************TRAVEL***********************************/
+
+#travel h2{
+  text-align: center;
+  background-color: #FF6666;
+  font-family: 'Pacifico', cursive;
+  color: white;
+  text-shadow: 0px 1px 1px rgba(0,0,0,0.8);
+  padding: 3%;
+}
+
+#travel h3{
+  margin-top: 2%;
+  text-align: center;
+}
+
+#travel-blocks{
+  width: 100%;
+  text-align: center;
+}
+
+.blocks{
+  margin: auto;
+  display: inline-block;
+}
+
+.block-item{
+  float:left;
+  padding: 5% 0 5% 0;
+  margin: 0;
+  text-align: center;
+}
+
+.block-item-left{
+  margin-right: 10px;
+}
+
+.block-item-right{
+  margin-left: 10px;
+}
+
+#boston-canvas{
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+#prov-canvas{
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
