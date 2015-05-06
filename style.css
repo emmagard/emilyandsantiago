@@ -65,7 +65,7 @@ nav ul li a:focus {
   height: 100%;
   width: 100%;
   background:
-              url('es-65-2.jpg') no-repeat center center;
+              url('es-65-2.jpg') no-repeat center center fixed;
   background-size: cover;
   }#home hgroup{
     color: #FF6666;
