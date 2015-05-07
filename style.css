@@ -146,6 +146,15 @@ nav ul li a:focus {
   height: 100px;
   width: 300px;
   background-color: #FF6666;
+  border-radius: 20px;
+}.lodging-item a{
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}.lodging-item a:hover{
+  color: white;
+}.lodging-item h5{
+  margin-top: 1.67rem;
+  margin-bottom: 1.25rem;
 }
 
 .block-item-left{
@@ -169,7 +178,7 @@ nav ul li a:focus {
   padding: 0px;
 }
 
-#lodging-title{
+.lodging-title{
   margin-bottom: 43px;
 }
 
@@ -183,4 +192,22 @@ nav ul li a:focus {
   text-align: center;
 }
 
+.other-lodging{
+  text-align: center;
+  margin: auto;
+  height: 150px;
+  width: 700px;
+  background-color: #FF6666;
+  border-radius: 20px;
+}.other-lodging a{
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}.other-lodging a:hover{
+  color: white;
+}.other-lodging h5{
+  padding-top: 1.67rem;
+  margin-bottom: 1.25rem;
+}.other-lodging p{
+  margin: auto 3rem;
+}
 
