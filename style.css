@@ -8,6 +8,7 @@ html, body{
 h1, h2, h3{
   margin:0;
   padding:0;
+  font-weight: normal;
 }
 
 h1{
@@ -71,7 +72,7 @@ nav ul li a:focus {
     color: #FF6666;
     font-family: 'Pacifico', cursive;
     text-shadow: 0px 1px 1px rgba(0,0,0,0.8);
-    padding-top: 4%;
+    padding-top: 6%;
     margin-left: 5%;
   }#home h3{
     margin-left: 34%;
@@ -100,13 +101,14 @@ nav ul li a:focus {
 
 /***********************TRAVEL***********************************/
 
-#travel h2{
+#travel h2, #ceremony h2{
   text-align: center;
   background-color: #FF6666;
   font-family: 'Pacifico', cursive;
   color: white;
   text-shadow: 0px 1px 1px rgba(0,0,0,0.8);
   padding: 3%;
+  font-weight: normal;
 }
 
 #travel h3{
@@ -210,4 +212,11 @@ nav ul li a:focus {
 }.other-lodging p{
   margin: auto 3rem;
 }
+/***************************CEREMONY***************************/
 
+#ceremony h2{
+  margin-top: 10%;
+  color: #FF6666;
+  background: rgba(0, 0, 0, 0.5);
+
+}
