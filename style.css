@@ -112,7 +112,7 @@ nav ul li a:focus {
 }
 
 #travel h3{
-  margin-top: 2%;
+  margin-top: 5%;
   text-align: center;
 }
 
@@ -213,10 +213,29 @@ nav ul li a:focus {
   margin: auto 3rem;
 }
 /***************************CEREMONY***************************/
-
-#ceremony h2{
+#ceremony{
+  width: 100%;
+}#ceremony h2{
   margin-top: 10%;
   color: #FF6666;
   background: rgba(0, 0, 0, 0.5);
-
+}#ceremony h3{
+  text-align: center;
 }
+#ceremony img{
+  margin: auto;
+  display: block;
+  border-radius: 10px;
+}
+#ceremony-blocks{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 13%;
+  margin-top: 5%;
+}
+
+#church-map{
+  margin-top: 15%;
+}
+
+/***************************RECEPTION***************************/
