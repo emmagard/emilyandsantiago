@@ -340,7 +340,19 @@ nav ul li a:focus {
     text-align: center;
   }
 
-/********************REGISTRY*****************/
+  #registry-blocks{
+    width: 100%;
+    text-align: center;
+    margin-top: 4.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .shop-name{
+    height: 100px;
+    width: 100px;
+  }
+
+/********************THING TO DO*****************/
 
 #things{
   width: 100%;
@@ -359,3 +371,10 @@ nav ul li a:focus {
     display: block;
     border-radius: 10px;
   }
+
+#things-blocks{
+  width: 100%;
+  text-align: center;
+  margin-top: 4.5rem;
+  margin-bottom: 2rem;
+}
