@@ -110,6 +110,7 @@ nav ul li a:focus {
     font-size: 1.618rem;
     margin: 1% 10%;
     text-align: center;
+    line-height: 1.6;
   }
 
 #welcome-p{
@@ -302,4 +303,22 @@ nav ul li a:focus {
 .reception-long{
 
 }
+
+
+/********************MAP OF EVENTS*****************/
+#maps{
+  width:100%;
+}#maps h2{
+  margin-top: 10%;
+  color: white;
+  background: #FF6666;
+}
+
+#events-map{
+  height: 43.75rem;
+  width: 75%;
+  margin: 4.5rem auto;
+  padding: 0px;
+}
+
 
