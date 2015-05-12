@@ -16,9 +16,17 @@ h1{
 }
 h2{
   font-size: 4.236rem;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 0px 1px 1px rgba(0,0,0,0.8);
+  padding: 3%;
+  font-weight: normal;
+  text-align: center;
 }
 h3{
   font-size: 2.618rem;
+}
+h5{
+  font-size: 1.618rem;
 }
 
 hr{
@@ -61,6 +69,18 @@ nav ul li a:hover {
 nav ul li a:focus {
   color: white;
 }
+
+.short-p{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.618rem;
+}
+
+.long-p{
+  font-size: 1.618rem;
+  margin:0.5rem 13.5rem 1rem;
+  line-height: 1.6;
+}
 /***********************HOME***********************************/
 #home{
   height: 100%;
@@ -81,17 +101,20 @@ nav ul li a:focus {
 
 /***********************WELCOME***********************************/
 #welcome{
-  height: 65%;
   width: 100%;
   }#welcome h1{
-    margin-top: 5%;
+    margin-top: 3%;
     font-family: 'Pacifico', cursive;
     text-align: center;
   }#welcome p{
     font-size: 1.618rem;
-    margin: 1% 10% 2%;
+    margin: 1% 10%;
     text-align: center;
   }
+
+#welcome-p{
+  margin-bottom: 7%;
+}
 
 .clear-fix:after{
   content: "";
@@ -101,23 +124,14 @@ nav ul li a:focus {
 
 /***********************TRAVEL***********************************/
 
-#travel h2, #ceremony h2{
-  text-align: center;
+#travel h2{
   background-color: #FF6666;
-  font-family: 'Pacifico', cursive;
   color: white;
-  text-shadow: 0px 1px 1px rgba(0,0,0,0.8);
-  padding: 3%;
-  font-weight: normal;
 }
 
 #travel h3{
   margin-top: 5%;
   text-align: center;
-}
-
-#travel h5{
-  font-size: 1.618rem;
 }
 
 #travel-blocks{
@@ -181,12 +195,7 @@ nav ul li a:focus {
 }
 
 .lodging-title{
-  margin-bottom: 43px;
-}
-
-.lodging{
-  margin: 1% 15% 2%;
-  font-size: 1.618rem;
+  margin-bottom: 2.75rem;
 }
 
 #lodging-blocks{
@@ -212,26 +221,36 @@ nav ul li a:focus {
 }.other-lodging p{
   margin: auto 3rem;
 }
+
+.lodging-long{
+  margin-bottom: 3rem;
+}
+
 /***************************CEREMONY***************************/
 #ceremony{
   width: 100%;
-}#ceremony h2{
-  margin-top: 10%;
-  color: #FF6666;
-  background: rgba(0, 0, 0, 0.5);
-}#ceremony h3{
-  text-align: center;
-}
-#ceremony img{
-  margin: auto;
-  display: block;
-  border-radius: 10px;
-}
+  }#ceremony h2{
+    margin-top: 10%;
+    color: #FF6666;
+    background: rgba(0, 0, 0, 0.5);
+  }#ceremony h3{
+    text-align: center;
+  }#ceremony img{
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+  }#ceremony a{
+    text-decoration: none;
+    color: #333;
+  }#ceremony a:hover{
+    color:rgba(0, 0, 0, 0.5);
+  }
+
 #ceremony-blocks{
   width: 100%;
   text-align: center;
-  margin-bottom: 13%;
-  margin-top: 5%;
+  margin-top: 4.5rem;
+  margin-bottom: 11.68rem;
 }
 
 #church-map{
@@ -239,3 +258,48 @@ nav ul li a:focus {
 }
 
 /***************************RECEPTION***************************/
+
+#reception{
+  width:100%;
+  text-align: center;
+  }#reception h2{
+    margin-top: 10%;
+    color: white;
+    background: #FF6666;
+  }#reception h3{
+    margin-top: 4.5rem;
+    margin-bottom: 2.75rem;
+  }#reception h5{
+    background-color:  #FF6666;
+    display: inline;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+  }#reception h5 a{
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+  }#reception h5 a:hover{
+    color: white;
+  }#reception a{
+    text-decoration: none;
+    color: #333;
+  }#reception a:hover{
+    color: rgba(0, 0, 0, 0.5);
+  }#reception img{
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+  }#reception .long-p{
+    text-align: left;
+  }#reception span{
+    font-weight: 700;
+  }
+
+#above-button{
+  margin-bottom: 1.5rem;
+}
+
+.reception-long{
+
+}
+

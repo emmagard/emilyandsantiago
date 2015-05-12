@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="style.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css'>
@@ -28,8 +29,10 @@
     </section>
     <section id="welcome">
       <h1>Welcome!</h1>
-      <p>Welcome to our wedding website. We are very excited to share and celebrate this special day with you.</p>
-      <p>Our goal is to use this website, among other things, to give you as much information as possible about our wedding day, so that on September 5, 2015 we can all focus on celebrating.  We will continue to update our website as we finalize the details of our wedding day. So, come back and visit soon!</p>
+      <div id="welcome-p">
+        <p>Welcome to our wedding website. We are very excited to share and celebrate this special day with you.</p>
+        <p>Our goal is to use this website, among other things, to give you as much information as possible about our wedding day, so that on September 5, 2015 we can all focus on celebrating.  We will continue to update our website as we finalize the details of our wedding day. So, come back and visit soon!</p>
+      </div>
     </section>
     <section id="travel">
       <h2>Travel & Accomodations</h2>
@@ -49,10 +52,11 @@
         </div>
       </div>
       <h3 class="lodging-title">Your also have options for lodging!</h3>
-      <p class="lodging">We are recommending that our guests stay in the Middletown/Portsmouth, RI area because it is convenient to both the Newport area (a great place to spend time while you are in the area and only about a 10 min drive) as well as the wedding location (about a 15-20 min drive). We will also have shuttles set up in the Middletown/Portsmouth area for the day of the wedding so you can enjoy yourselves.</p>
+      <div class="lodging-long">
+        <p class="long-p">We are recommending that our guests stay in the Middletown/Portsmouth, RI area because it is convenient to both the Newport area (a great place to spend time while you are in the area and only about a 10 min drive) as well as the wedding location (about a 15-20 min drive). We will also have shuttles set up in the Middletown/Portsmouth area for the day of the wedding so you can enjoy yourselves.</p>
 
-      <p class="lodging">The room block availability in the area is limited so we were only able to secure one room block but there are plenty of options.  Keep in mind all places will have a two night minimum bc of the holiday weekend.</p>
-
+        <p class="long-p">The room block availability in the area is limited so we were only able to secure one room block but there are plenty of options.  Keep in mind all places will have a two night minimum bc of the holiday weekend.</p>
+      </div>
       <div class="clear-fix" id="lodging-blocks">
         <div class="blocks">
           <div class="lodging-item block-item-left">
@@ -78,8 +82,10 @@
         </div>
       </div>
       <h3 class="lodging-title">Other Lodging Options</h3>
-      <p class="lodging">Due to logistics, shuttles will not be available for the following options on the day of the wedding, however keep in mind that there are taxi's or uber's availalble if you prefer not to drive.
-      </p>
+      <div>
+        <p class="long-p">Due to logistics, shuttles will not be available for the following options on the day of the wedding, however keep in mind that there are taxi's or uber's availalble if you prefer not to drive.
+        </p>
+      </div>
       <div class="other-lodging">
         <h5><a href="http://www.kayak.com/hotels/Newport,RI-c29888/2015-09-04/2015-09-06/2guests">Try A Kayak search</a></h5>
         <p>Some hotels to highlight from the link above: The Newport Harbor Hotel and Marina, Newport Marriott, Hotel Viking, Hyatt Regency.</p>
@@ -97,15 +103,27 @@
             <img src="stmarys2.jpg">
           </div>
           <div class="block-item block-item-right">
-            <h3>St. Mary's Church</h3>
-            <p class="lodging">330 Wood Street</p>
-            <p class="lodging">Bristol, RI 02809</p>
+            <h3><a href="http://www.stmarybristolri.org/">St. Mary's Church</a></h3>
+            <p class="short-p">330 Wood Street</p>
+            <p class="short-p">Bristol, RI 02809</p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2980.2855998231585!2d-71.2707033!3d41.671175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e4546f5c0f78ad%3A0x315d636e38d4b52d!2s330+Wood+St%2C+Bristol%2C+RI+02809!5e0!3m2!1sen!2sus!4v1431396791306" width="375" height="300" frameborder="0" style="border:0" id="church-map"></iframe>
           </div>
         </div>
       </div>
     </section>
     <section id="reception">
+      <h2>Reception</h2>
+      <h3><a href="http://www.blithewold.org/">Blithewold Mansion, Gardens & Arbortum</a></h3>
+      <img src="Blithewold-015.jpg">
+      <p class="short-p">101 Ferry Road (Rt. 114)</p>
+      <p class="short-p" id="above-button">Bristol, RI 02809</p>
+      <h5><a href="https://www.google.com/maps/place/101+Ferry+Rd,+Bristol,+RI+02809/@41.6541346,-71.2659963,17z/data=!3m1!4b1!4m2!3m1!1s0x89e4548cf31b6579:0x8547ef618d3227ca">View Map</a></h5>
+      <h3>Driving Directions</h3>
+      <div class="reception-long">
+        <p class="long-p"><span>From Newport:</span> Take Route 114 North through Middletown and Portsmouth.  At the junction of Rt. 114 and Rt. 24 bear left, Rt. 114 Bristol. Signs for Rt. 114 are unclear from this point so be sure to take a left at each of the next two stop lights, staying on Rt. 114. Cross the Mount Hope Bridge to enter Bristol and bear left at the fort onto Rt. 114 (Ferry Road). Blithewold is 1/4 mile on the left.</p>
+        <p class="long-p"><span>From Providence:</span> Take Exit 7 off Interstate 195. Follow Rt. 114 South for approximately 13.5 miles through Barrington, Warren and downtown Bristol. Blithewold is located on Rt. 114 on the right.</p>
+        <p class="long-p"><span>From Boston, MA:</span> Take Interstate 93 South to Rt. 24 South.  In Fall River, MA exit onto I-15 West for one exit (approximately 1.4 miles), then return to Rt. 24 South, following signs towards Newport, RI. After approximately 7 miles, cross the Sakonnet River Bridge and then take Rhode Island exit 2 (Bristol/Mt. Hope Bridge). Go right at the end of the exit ramp and cross the Mt. Hope Bridge. Bear left at the fork onto Rt. 114 (Ferry Road). Blithewold is 1/4 mile on the left.</p>
+      </div>
     </section>
   </body>
 </html>
