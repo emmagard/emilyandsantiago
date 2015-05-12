@@ -164,17 +164,22 @@ nav ul li a:focus {
   width: 300px;
   background-color: #FF6666;
   border-radius: 20px;
-}.lodging-item a{
-  color: rgba(255, 255, 255, 0.7);
-  text-decoration: none;
-}.lodging-item a:hover{
-  color: white;
-}.lodging-item h5{
-  margin-top: 1.67rem;
-  margin-bottom: 1.25rem;
-}
+  }.lodging-item a{
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+  }.lodging-item a:hover{
+    color: white;
+  }.lodging-item h5{
+    margin-top: 1.67rem;
+    margin-bottom: 1.25rem;
+  }
 
 .block-item-left{
+  margin-right: 30px;
+}
+
+.block-item-middle{
+  margin-left: 30px;
   margin-right: 30px;
 }
 
@@ -211,17 +216,17 @@ nav ul li a:focus {
   width: 700px;
   background-color: #FF6666;
   border-radius: 20px;
-}.other-lodging a{
-  color: rgba(255, 255, 255, 0.7);
-  text-decoration: none;
-}.other-lodging a:hover{
-  color: white;
-}.other-lodging h5{
-  padding-top: 1.67rem;
-  margin-bottom: 1.25rem;
-}.other-lodging p{
-  margin: auto 3rem;
-}
+  }.other-lodging a{
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+  }.other-lodging a:hover{
+    color: white;
+  }.other-lodging h5{
+    padding-top: 1.67rem;
+    margin-bottom: 1.25rem;
+  }.other-lodging p{
+    margin: auto 3rem;
+  }
 
 .lodging-long{
   margin-bottom: 3rem;
@@ -308,11 +313,11 @@ nav ul li a:focus {
 /********************MAP OF EVENTS*****************/
 #maps{
   width:100%;
-}#maps h2{
-  margin-top: 10%;
-  color: white;
-  background: #FF6666;
-}
+  }#maps h2{
+    margin-top: 10%;
+    color: white;
+    background: #FF6666;
+  }
 
 #events-map{
   height: 43.75rem;
@@ -321,4 +326,36 @@ nav ul li a:focus {
   padding: 0px;
 }
 
+/********************REGISTRY*****************/
 
+#registry{
+  width:100%;
+  }#registry h2{
+    margin-top: 10%;
+    color: white;
+    background: #FF6666;
+  }#registry h3{
+    margin-top: 4.5rem;
+    margin-bottom: 2.75rem;
+    text-align: center;
+  }
+
+/********************REGISTRY*****************/
+
+#things{
+  width: 100%;
+}#things h2{
+  margin-top: 10%;
+  color: white;
+  background: #FF6666;
+  }#things h3{
+  margin-top: 4.5rem;
+  margin-bottom: 2.75rem;
+  text-align: center;
+  }#things img{
+    height: 20rem;
+    width: 20rem;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+  }
