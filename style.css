@@ -352,7 +352,18 @@ nav ul li a:focus {
 
   .shop-name{
     height: 100px;
-    width: 100px;
+    width: 300px;
+    background-color:rgba(0, 0, 0, 0.5);
+    padding: 0;
+    border-radius: 10px;
+  }.shop-name p{
+    margin-top: 2rem;
+    font-size: 1.618rem;
+  }.shop-name a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+  }.shop-name a:hover{
+    color: white;
   }
 
 /********************THING TO DO*****************/
