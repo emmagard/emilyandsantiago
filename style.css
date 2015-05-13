@@ -81,6 +81,12 @@ nav ul li a:focus {
   margin:0.5rem 13.5rem 1rem;
   line-height: 1.6;
 }
+
+.clear-fix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
 /***********************HOME***********************************/
 #home{
   height: 100%;
@@ -94,7 +100,7 @@ nav ul li a:focus {
     text-shadow: 0px 1px 1px rgba(0,0,0,0.8);
     padding-top: 4%;
     margin-left: 5%;
-  }#home h3{
+  }#home hgroup h3{
     margin-left: 24%;
     margin-top: -3%;
   }
@@ -103,24 +109,19 @@ nav ul li a:focus {
 #welcome{
   width: 100%;
   }#welcome h1{
+    margin-left:3rem ;
     margin-top: 3%;
     font-family: 'Pacifico', cursive;
     text-align: center;
   }#welcome p{
     font-size: 1.618rem;
-    margin: 1% 10%;
+    margin: 2% 10% 1%;
     text-align: center;
     line-height: 1.6;
   }
 
 #welcome-p{
   margin-bottom: 7%;
-}
-
-.clear-fix:after{
-  content: "";
-  display: table;
-  clear: both;
 }
 
 /***********************TRAVEL***********************************/

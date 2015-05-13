@@ -90,10 +90,10 @@ $(document).ready(function(){
         event.preventDefault();
 
         var fullUrl = this.href;
-        console.log(this.href);
         var separatedUrl = fullUrl.split('#');
         var targ = separatedUrl[1];
-        var targetOffsetTop = $('#'+ targ).offset().top;
+        var targetOffsetTop = ($('#'+ targ).offset().top)- 60;
+        console.log(targetOffsetTop);
 
         $('html, body').animate({
           scrollTop: targetOffsetTop
@@ -102,11 +102,12 @@ $(document).ready(function(){
 
     //Wedding day countdown
     var weddingDay = new Date('09/05/2015');
-    console.log(weddingDay);
+
     var now = new Date();
-    console.log(now);
-    var distance = weddingDay - now;
-    console.log(distance);
+
+    var distance = weddingDay.getTime() - now.getTime();
+
     var daysRemaining = Math.floor(distance/86400000);
-    console.log(daysRemaining);
+
+    document.getElementById('date').innerHTML = daysRemaining + " days until our wedding!";
 });//end ready
