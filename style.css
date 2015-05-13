@@ -265,7 +265,6 @@ nav ul li a:focus {
 }
 
 /***************************RECEPTION***************************/
-
 #reception{
   width:100%;
   text-align: center;
@@ -293,13 +292,16 @@ nav ul li a:focus {
   }#reception a:hover{
     color: rgba(0, 0, 0, 0.5);
   }#reception img{
-    margin: auto;
+    margin: 2rem auto;
     display: block;
     border-radius: 10px;
   }#reception .long-p{
     text-align: left;
   }#reception span{
     font-weight: 700;
+  }#reception #driving{
+    margin-top:1rem;
+    margin-bottom: 2.75rem;
   }
 
 #above-button{
