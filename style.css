@@ -4,6 +4,7 @@ html, body{
   color: #333;
   font-family: 'Cabin', sans-serif;
   font-size: 100%;
+  overflow-x:hidden;
 }
 
 h1, h2, h3{
@@ -90,7 +91,6 @@ nav ul li a:focus {
 }
 /***********************HOME***********************************/
 #home{
-  height: 100%;
   width: 100%;
   background: url('es-65-2.jpg') no-repeat center center fixed;
   background-size: cover;
@@ -395,6 +395,6 @@ nav ul li a:focus {
 
 /************************MEDIA QUERIES*************/
 
-@media only screen and (max-width: 400px) {
+@media (max-width: 400px) {
   body { font-size:70%;}
 }
