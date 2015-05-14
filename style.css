@@ -164,10 +164,10 @@ nav ul li a:focus {
   padding: 0 0 5% 0;
   margin: auto auto 3% auto;
   text-align: center;
-  height: 100px;
-  width: 300px;
+  height: 6.25em;
+  width: 18.75em;
   background-color: #FF6666;
-  border-radius: 20px;
+  border-radius: 1em;
   }.lodging-item a{
     color: rgba(255, 255, 255, 0.7);
     text-decoration: none;
@@ -192,14 +192,14 @@ nav ul li a:focus {
 }
 
 #boston-canvas{
-  height: 400px;
-  width: 400px;
+  height: 25em;
+  width: 25em;
   margin: 0;
   padding: 0;
 }
 #prov-canvas{
-  height: 400px;
-  width: 400px;
+  height: 25em;
+  width: 25em;
   margin: 0;
   padding: 0;
 }
@@ -216,10 +216,10 @@ nav ul li a:focus {
 .other-lodging{
   text-align: center;
   margin: auto;
-  height: 150px;
-  width: 700px;
+  height: 9.375em;
+  width: 80%;
   background-color: #FF6666;
-  border-radius: 20px;
+  border-radius: 1em;
   }.other-lodging a{
     color: rgba(255, 255, 255, 0.7);
     text-decoration: none;
@@ -246,6 +246,8 @@ nav ul li a:focus {
   }#ceremony h3{
     text-align: center;
   }#ceremony img{
+    width: 23.4375em;
+    height: 31.25em;
     margin: auto;
     display: block;
     border-radius: 10px;
@@ -264,6 +266,8 @@ nav ul li a:focus {
 }
 
 #church-map{
+  width: 23.4365em;
+  height: 18.75em;
   margin-top: 15%;
 }
 
@@ -404,9 +408,18 @@ nav ul li a:focus {
   #home { background: url('es-65-2.jpg') no-repeat center right scroll;}
   #home hgroup { font-size: 60%;
     width: 100%;
+    text-align: center;
     margin: 0;
   }
-  #home h1, #home h2 { display: inline;
-    margin: auto;
+  #home hgroup h3 { margin-left: 0;
+    margin-top: 90%;
+    font-size: 3.5em;
   }
+  .block-item-left { margin: 0;}
+  .block-item-right { margin: 0;}
+  .block-item {float: none;}
+  #boston-canvas, #prov-canvas {margin: auto;}
+  .lodging-item { margin: auto; float: none;}
+  .lodging-item h5 { padding-top: 0.75em;}
+
 }
