@@ -155,8 +155,8 @@ nav ul li a:focus {
   padding: 0 0 5% 0;
   margin: auto;
   text-align: center;
-  height: 400px;
-  width: 400px;
+  height: 25em;
+  width: 25em;
 }
 
 .lodging-item{
@@ -299,6 +299,8 @@ nav ul li a:focus {
   }#reception a:hover{
     color: rgba(0, 0, 0, 0.5);
   }#reception img{
+    height: 28.0625em;
+    width: 37.5em;
     margin: 2rem auto;
     display: block;
     border-radius: 10px;
@@ -386,8 +388,8 @@ nav ul li a:focus {
   margin-bottom: 2.75rem;
   text-align: center;
   }#things img{
-    height: 20rem;
-    width: 20rem;
+    height: 20em;
+    width: 20em;
     margin: auto;
     display: block;
     border-radius: 10px;
@@ -415,11 +417,15 @@ nav ul li a:focus {
     margin-top: 90%;
     font-size: 3.5em;
   }
-  .block-item-left { margin: 0;}
+  .block-item-left { margin: 0 0 30% 0;}
+  .block-item-middle { margin: 0;}
   .block-item-right { margin: 0;}
   .block-item {float: none;}
   #boston-canvas, #prov-canvas {margin: auto;}
   .lodging-item { margin: auto; float: none;}
   .lodging-item h5 { padding-top: 0.75em;}
+  #registry .block-item-left, #things .block-item-left{ margin: 0;}
+  .shop-name p{ padding-top: 1em;}
+
 
 }
