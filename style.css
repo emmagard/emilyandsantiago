@@ -4,7 +4,8 @@ html, body{
   color: #333;
   font-family: 'Cabin', sans-serif;
   font-size: 100%;
-  overflow-x:hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 h1, h2, h3{
