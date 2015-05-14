@@ -3,6 +3,7 @@ html, body{
   margin: 0;
   color: #333;
   font-family: 'Cabin', sans-serif;
+  font-size: 100%;
 }
 
 h1, h2, h3{
@@ -12,10 +13,10 @@ h1, h2, h3{
 }
 
 h1{
-  font-size: 6.854rem;
+  font-size: 6.854em;
 }
 h2{
-  font-size: 4.236rem;
+  font-size: 4.236em;
   font-family: 'Pacifico', cursive;
   text-shadow: 0px 1px 1px rgba(0,0,0,0.8);
   padding: 3%;
@@ -23,10 +24,10 @@ h2{
   text-align: center;
 }
 h3{
-  font-size: 2.618rem;
+  font-size: 2.618em;
 }
 h5{
-  font-size: 1.618rem;
+  font-size: 1.618em;
 }
 
 hr{
@@ -48,7 +49,7 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  font-size: 1rem;
+  font-size: 1em;
   text-transform: uppercase;
   padding: 5px 25px;
   font-weight: 700;
@@ -73,12 +74,12 @@ nav ul li a:focus {
 .short-p{
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  font-size: 1.618rem;
+  font-size: 1.618em;
 }
 
 .long-p{
-  font-size: 1.618rem;
-  margin:0.5rem 13.5rem 1rem;
+  font-size: 1.618em;
+  margin: 0.5rem 16.5% 1rem;
   line-height: 1.6;
 }
 
@@ -91,8 +92,7 @@ nav ul li a:focus {
 #home{
   height: 100%;
   width: 100%;
-  background:
-              url('es-65-2.jpg') no-repeat center center fixed;
+  background: url('es-65-2.jpg') no-repeat center center fixed;
   background-size: cover;
   }#home hgroup{
     color: #FF6666;
@@ -109,12 +109,12 @@ nav ul li a:focus {
 #welcome{
   width: 100%;
   }#welcome h1{
-    margin-left:3rem ;
+    margin-left: 4%;
     margin-top: 3%;
     font-family: 'Pacifico', cursive;
     text-align: center;
   }#welcome p{
-    font-size: 1.618rem;
+    font-size: 1.618em;
     margin: 2% 10% 1%;
     text-align: center;
     line-height: 1.6;
@@ -192,13 +192,13 @@ nav ul li a:focus {
   height: 400px;
   width: 400px;
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 #prov-canvas{
   height: 400px;
   width: 400px;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .lodging-title{
@@ -226,7 +226,7 @@ nav ul li a:focus {
     padding-top: 1.67rem;
     margin-bottom: 1.25rem;
   }.other-lodging p{
-    margin: auto 3rem;
+    margin: auto 7%;
   }
 
 .lodging-long{
@@ -391,4 +391,10 @@ nav ul li a:focus {
   text-align: center;
   margin-top: 4.5rem;
   margin-bottom: 2rem;
+}
+
+/************************MEDIA QUERIES*************/
+
+@media only screen and (max-width: 400px) {
+  body { font-size:70%;}
 }
