@@ -404,7 +404,7 @@ nav ul li a:focus {
 
 /************************MEDIA QUERIES*************/
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
   body { font-size:70%;}
   nav  { display: none;}
   #home { background: url('es-65-2.jpg') no-repeat center right scroll;}
