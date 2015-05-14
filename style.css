@@ -426,6 +426,7 @@ nav ul li a:focus {
   .lodging-item h5 { padding-top: 0.75em;}
   #registry .block-item-left, #things .block-item-left{ margin: 0;}
   .shop-name p{ padding-top: 1em;}
+  #travel-blocks{ margin-bottom: 20%;}
 
 
 }
