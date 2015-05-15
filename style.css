@@ -402,7 +402,7 @@ nav ul li a:focus {
 /************************MEDIA QUERIES*************/
 
 @media screen and (max-width: 800px) {
-  body { font-size:70%;
+  body, html { font-size:70%;
     overflow: hidden;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
