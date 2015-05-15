@@ -4,9 +4,6 @@ html, body{
   color: #333;
   font-family: 'Cabin', sans-serif;
   font-size: 100%;
-  overflow: hidden;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
 }
 
 h1, h2, h3{
@@ -405,7 +402,11 @@ nav ul li a:focus {
 /************************MEDIA QUERIES*************/
 
 @media screen and (max-width: 800px) {
-  body { font-size:70%;}
+  body { font-size:70%;
+    overflow: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
   nav  { display: none;}
   #home { background: url('es-65-2.jpg') no-repeat center right scroll;}
   #home hgroup { font-size: 60%;
