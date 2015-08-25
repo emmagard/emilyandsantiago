@@ -82,9 +82,6 @@ $(document).ready(function(){
 
     google.maps.event.addDomListener(window, 'load', initialize);
 
-    //Check to see if JS and jQuery are working
-    console.log("js and query is working");
-
     //Smooth scrolling
     $('nav ul li a').on('click', function(event){
         event.preventDefault();
@@ -93,7 +90,6 @@ $(document).ready(function(){
         var separatedUrl = fullUrl.split('#');
         var targ = separatedUrl[1];
         var targetOffsetTop = ($('#'+ targ).offset().top)- 60;
-        console.log(targetOffsetTop);
 
         $('html, body').animate({
           scrollTop: targetOffsetTop
@@ -110,4 +106,13 @@ $(document).ready(function(){
     var daysRemaining = Math.floor(distance/86400000);
 
     document.getElementById('date').innerHTML = daysRemaining + " days until our wedding!";
+
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'velezgetmarried',
+        clientId: '387ec35e96bb478ab5d4be638f0cb4be',
+        resolution: 'low_resolution'
+    });
+
+    feed.run();
 });//end ready
