@@ -107,12 +107,4 @@ $(document).ready(function(){
 
     document.getElementById('date').innerHTML = daysRemaining + " days until our wedding!";
 
-    var feed = new Instafeed({
-        get: 'tagged',
-        tagName: 'velezgetmarried',
-        clientId: '387ec35e96bb478ab5d4be638f0cb4be',
-        resolution: 'low_resolution'
-    });
-
-    feed.run();
 });//end ready

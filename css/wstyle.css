@@ -382,26 +382,12 @@ nav ul li a:focus {
   margin-bottom: 2.75rem;
   text-align: center;
   }#gallery img{
-    height: 25%;
-    width: 25%;
+    height: 33.33333333%;
+    width: 33.333333%;
     display: block;
     float: left;
   }
 
-#instafeed {
-  width: 90%;
-  margin: 0 auto;
-}#instafeed a img {
-  width: 100%;
-  float: left;
-}
-
-
-
-#instafeed a {
-  float: left;
-  width: 25%;
-}
 
 /************************MEDIA QUERIES*************/
 
